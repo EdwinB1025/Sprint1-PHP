@@ -42,7 +42,7 @@ function imprimir2($num1, $num2, $num3, $num4)
     return $result;
 }
 
-// Punto b
+// Punto b: para este ejercicio introducir argumentos dentro del comando para ejecutar el scprit. E.g. php Exercici3.php 1 2 +
 
 function calcular($num1, $num2, $operacion)
 {
