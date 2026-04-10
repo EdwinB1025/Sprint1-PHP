@@ -79,8 +79,11 @@ function eratostenes(int $n, int $log = 0): array
                 $numPrimos = numerosPrimos($numeros);
             }
         } while ($indice !== NULL);
+
+        return $numPrimos;
+    } else {
+        return $numeros;
     }
-    return $numPrimos;
 }
 
 
