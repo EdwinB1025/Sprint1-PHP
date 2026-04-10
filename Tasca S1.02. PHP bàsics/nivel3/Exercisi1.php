@@ -70,7 +70,7 @@ function eratostenes(int $n, int $log = 0): array
         echo "Erastostenes: array numeros creado\n";
         echo var_dump($numeros) . "\n";
     }
-    if (sizeof($numeros) > 1) {
+    if (sizeof($numeros)["numero"] > 1) {
         do {
             $indice = buscarNumero($numeros);
             if ($indice !== NULL) {
