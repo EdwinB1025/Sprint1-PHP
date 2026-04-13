@@ -7,7 +7,11 @@ $boolean = false;
 //$arrayString = array("PHP", "CSS", "HTML", "JS");
 //$arrayIntegers = array(0, 1, 2, 3);
 
+const NOM = "edwin";
+define("COGNOM", "Barrera");
+
 echo "String: $string \n";
 echo "Integer: $integer \n";
 echo "Float: $float \n";
-echo "Boolean: $boolean";
+echo "Boolean: $boolean\n";
+echo NOM . " " . COGNOM;
