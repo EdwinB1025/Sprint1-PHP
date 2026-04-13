@@ -5,14 +5,14 @@ $Y = 2;
 $N = 4.3;
 $M = 8.45;
 
-function imprimir($num1, $num2)
+function operarNumero(float $num1, float $num2): float
 {
 
     $suma = $num1 + $num2;
     $resta = $num1 - $num2;
     $multi = $num1 * $num2;
     $div = $num1 / $num2;
-    $mod = (int)$num1 % (int)$num2;
+    $mod = fmod($num1, $num2);
 
     $result = "El primer numero es: $num1, y el segundo numero es: $num2 \n
     Suma: $suma\n
@@ -24,7 +24,7 @@ function imprimir($num1, $num2)
     return $result;
 }
 
-function imprimir2($num1, $num2, $num3, $num4)
+function operarSerie(float $num1, float $num2, float $num3, float $num4): string
 {
     $numeros = array($num1, $num2, $num3, $num4);
     $numerosDoble = array_map(fn($v) => $v * 2, $numeros);
@@ -44,7 +44,7 @@ function imprimir2($num1, $num2, $num3, $num4)
 
 // Punto b: para este ejercicio introducir argumentos dentro del comando para ejecutar el scprit. E.g. php Exercici3.php 1 2 +
 
-function calcular($num1, $num2, $operacion)
+function calcular(float $num1, float $num2, string $operacion): string
 {
     $result = "El primer numero es: $num1, y el segundo numero es: $num2 \n";
 
@@ -80,9 +80,9 @@ function calcular($num1, $num2, $operacion)
 }
 
 // resultado a
-echo imprimir($X, $Y);
-echo imprimir($N, $M);
-echo imprimir2($X, $Y, $N, $M);
+echo operarNumero($X, $Y);
+echo operarNumero($N, $M);
+echo operarSerie($X, $Y, $N, $M);
 
 // resultado b
 echo calcular($argv[1], $argv[2], $argv[3]);
