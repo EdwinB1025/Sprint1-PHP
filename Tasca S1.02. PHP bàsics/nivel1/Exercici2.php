@@ -4,6 +4,7 @@ $string = "Hello, world!";
 $string2 = "Aquest és el curs de PHP";
 
 
+/* Funcion simplificada con funcio nativa
 function minusculas($str)
 {
     $lenght = strlen($str);
@@ -12,8 +13,9 @@ function minusculas($str)
         $string = $string . strtolower($str[$i]);
     }
     return $string;
-}
+}*/
 
+/* Funcion simplificada con funcion nativa
 function inverso($str)
 {
     $lenght = strlen($str);
@@ -23,15 +25,16 @@ function inverso($str)
     }
     return $string;
 }
+*/
 
+$stringMin = strtoupper($string);
 $lenght = strlen($str);
-$stringMin = minusculas($string);
-$strinv = inverso($string);
-$stringInv = strrev($string);
+$strinv = strrev($string);
+//$stringInv = strrev($string);
 
 
 echo "$string:\n";
 echo "String minusculas: $stringMin\n";
 echo "Longitud del string: $lenght\n";
-echo "String Invertido: $strinv || $stringInv\n";
+echo "String Invertido: $strinv\n";
 echo "$string. $string2";
