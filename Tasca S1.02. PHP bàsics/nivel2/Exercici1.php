@@ -1,13 +1,13 @@
 <?php
 
-function costo($segons)
+function costo(int $segons): float
 {
     if ((int)($segons / 60) < 3) {
         $costo = 10.0;
     } else {
         $costo = 10.0 + ($segons - 180) * (5.0 / 60);
     }
-    return (float)$costo;
+    return $costo;
 }
 
 do {
