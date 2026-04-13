@@ -1,12 +1,12 @@
 <?php
 
-function garuAlumne($nota)
+function garuAlumne(int $nota): string
 {
     if ($nota >= 60) {
         $grau = "Primera Divisió";
-    } elseif (45 <= $nota && $nota <= 59) {
+    } elseif ($nota >= 45) {
         $grau = "Segona Divisió";
-    } elseif (33 <= $nota && $nota <= 44) {
+    } elseif ($nota >= 33) {
         $grau = "Tercera Divisió";
     } else {
         $grau = "Reprova, Mateixa Divisió";
