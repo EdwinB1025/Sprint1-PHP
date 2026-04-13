@@ -1,9 +1,8 @@
 <?php
 $fin = $argv[1] ?? 50;
 $increment = $argv[2] ?? 1;
-$contador = 0;
 
-function contar($fin, $increment, $contador)
+function contar(int $fin, int $increment, $contador = 0)
 {
     while ($contador < $fin) {
         $contador += $increment;
