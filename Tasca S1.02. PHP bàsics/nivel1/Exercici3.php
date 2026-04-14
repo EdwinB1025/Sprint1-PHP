@@ -5,7 +5,7 @@ $Y = 2;
 $N = 4.3;
 $M = 8.45;
 
-function operarNumero(float $num1, float $num2): float
+function operarNumero(float $num1, float $num2): string
 {
 
     $suma = $num1 + $num2;

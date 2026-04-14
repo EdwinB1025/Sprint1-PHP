@@ -28,7 +28,7 @@ function inverso($str)
 */
 
 $stringMin = strtoupper($string);
-$lenght = strlen($str);
+$lenght = strlen($string);
 $strinv = strrev($string);
 //$stringInv = strrev($string);
 
