@@ -1,3 +1,9 @@
 [submodule "TASCA-S1.04.-POO-1"]
 	path = TASCA-S1.04.-POO-1
 	url = https://github.com/EdwinB1025/TascaS104_POO1.git
+[submodule "Tasca S1.05. POO 2"]
+	path = Tasca S1.05. POO 2
+	url = https://github.com/EdwinB1025/Tasca-S1.05.-POO-2.git
+[submodule "Tasca-S1.06-PHPAdv"]
+	path = Tasca-S1.06-PHPAdv
+	url = https://github.com/EdwinB1025/TascaS106_POO3.git
