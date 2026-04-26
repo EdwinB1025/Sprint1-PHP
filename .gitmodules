@@ -7,3 +7,6 @@
 [submodule "Tasca-S1.06-PHPAdv"]
 	path = Tasca-S1.06-PHPAdv
 	url = https://github.com/EdwinB1025/TascaS106_POO3.git
+[submodule "Tasca-S1.07-PHP-Err-Excp"]
+	path = Tasca-S1.07-PHP-Err-Excp
+	url = https://github.com/EdwinB1025/TascaS107PHP-Err-Excep.git
