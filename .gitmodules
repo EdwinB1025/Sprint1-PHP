@@ -10,3 +10,6 @@
 [submodule "Tasca-S1.07-PHP-Err-Excp"]
 	path = Tasca-S1.07-PHP-Err-Excp
 	url = https://github.com/EdwinB1025/TascaS107PHP-Err-Excep.git
+[submodule "Tasca S1.08 Testing"]
+	path = Tasca S1.08 Testing
+	url = https://github.com/EdwinB1025/TascaS108_Testing.git
